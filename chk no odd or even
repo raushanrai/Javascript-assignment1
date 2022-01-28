@@ -1,0 +1,10 @@
+const isEven = (value) => {
+  if (value % 2 == 0) {
+    console.log("even")
+  } else {
+    console.log("odd")
+  }
+}
+
+isEven(5);
+isEven(6);
